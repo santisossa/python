@@ -1,4 +1,4 @@
-import random
+import random as ran
 from math import sqrt as raiz, pow as elevar
 import operaciones as operators
 
@@ -6,8 +6,8 @@ lista=operators.cargar()
 operators.imprimir_mayor(lista)
 operators.imprimir_suma(lista)
 
-""" dado1=random.randint(1,6)
-dado2=random.randint(1,6)
+""" dado1=ran.randint(1,6)
+dado2=ran.randint(1,6)
 print("Primer dado:",dado1)
 print("Segundo dado:",dado2)
 suma=dado1+dado2
