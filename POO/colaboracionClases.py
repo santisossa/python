@@ -16,7 +16,6 @@ class Cliente:
     def imprimir(self):
         print(self.nombre,"tiene depositado la suma de",self.monto)
 
-
 class Banco:
 
     def __init__(self):
@@ -37,7 +36,6 @@ class Banco:
         self.cliente2.imprimir()
         self.cliente3.imprimir()
 
-
 # bloque principal        
 
 banco1=Banco()
@@ -47,7 +45,6 @@ banco1.depositos_totales()
 #---------------------------------------------------------------------------------------------------------------------------------------
 
 import random
-
 
 class Dado:
 
@@ -59,7 +56,6 @@ class Dado:
 
     def retornar_valor(self):
         return self.valor
-
 
 class JuegoDeDados:
 
